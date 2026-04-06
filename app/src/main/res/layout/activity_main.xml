@@ -6,15 +6,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!-- Nama -->
+    <!-- LABEL NAMA -->
+    <TextView
+        android:text="Nama Lengkap"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
     <EditText
         android:id="@+id/etNama"
-        android:hint="Masukkan nama"
+        android:hint="Masukkan nama..."
         android:inputType="text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-    <!-- Jenis Kelamin -->
+    <!-- LABEL JENIS KELAMIN -->
+    <TextView
+        android:text="Jenis Kelamin"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
     <RadioGroup
         android:id="@+id/rgKelamin"
         android:orientation="horizontal"
@@ -34,7 +48,14 @@
             android:layout_height="wrap_content"/>
     </RadioGroup>
 
-    <!-- Hobi -->
+    <!-- LABEL HOBI -->
+    <TextView
+        android:text="Hobi"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
     <CheckBox
         android:id="@+id/cbMembaca"
         android:text="Membaca"
@@ -53,18 +74,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
-    <!-- Tombol -->
+    <!-- BUTTON -->
     <Button
         android:id="@+id/btnTampil"
         android:text="Tampilkan"
+        android:layout_marginTop="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-    <!-- Hasil -->
+    <!-- HASIL -->
     <TextView
         android:id="@+id/tvHasil"
-        android:text="Hasil akan muncul di sini"
+        android:text="Hasil akan muncul di sini..."
         android:layout_marginTop="16dp"
+        android:padding="10dp"
+        android:background="#EEEEEE"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
