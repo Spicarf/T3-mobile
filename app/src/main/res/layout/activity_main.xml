@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Nama -->
+    <EditText
+        android:id="@+id/etNama"
+        android:hint="Masukkan nama"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Jenis Kelamin -->
+    <RadioGroup
+        android:id="@+id/rgKelamin"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbLaki"
+            android:text="Laki-laki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/rbPerempuan"
+            android:text="Perempuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+    <!-- Hobi -->
+    <CheckBox
+        android:id="@+id/cbMembaca"
+        android:text="Membaca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:id="@+id/cbCoding"
+        android:text="Coding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:id="@+id/cbOlahraga"
+        android:text="Olahraga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- Tombol -->
+    <Button
+        android:id="@+id/btnTampil"
+        android:text="Tampilkan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Hasil -->
+    <TextView
+        android:id="@+id/tvHasil"
+        android:text="Hasil akan muncul di sini"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
